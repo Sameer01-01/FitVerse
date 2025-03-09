@@ -82,7 +82,7 @@ const Home = () => {
 
   return (
     <div className="bg-black min-h-screen relative overflow-hidden">
-      {/* Animated background elements */}
+
       <div className="absolute inset-0 overflow-hidden">
         <div 
           className="absolute top-0 left-0 w-full h-full opacity-10"
@@ -102,7 +102,6 @@ const Home = () => {
       <div className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-gradient-to-tl from-green-400 to-emerald-500 opacity-20 blur-3xl"
            style={{ transform: `translateY(${scrollY * 0.1}px)` }} />
       
-      {/* Navbar */}
       <nav className="backdrop-blur-md bg-black/30 border-b border-white/10 p-4 px-6 md:px-10 flex justify-between items-center sticky top-0 z-50">
         <div className="flex items-center gap-4">
           <img src={logo} className="w-12 md:w-16 lg:w-20" alt="FitVerse Logo" />
@@ -122,7 +121,6 @@ const Home = () => {
         </div>
       </nav>
       
-      {/* Hero section */}
       <div className="relative z-10 px-4 pt-16 pb-12 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -153,7 +151,6 @@ const Home = () => {
         </motion.div>
       </div>
       
-      {/* Features section */}
       <div className="relative z-10 px-4 py-8 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -198,8 +195,6 @@ const Home = () => {
           ))}
         </motion.div>
       </div>
-
-      {/* Testimonial/stats section */}
       <div className="relative z-10 px-4 py-16 bg-gradient-to-b from-black/0 via-black/50 to-black/0">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -234,8 +229,7 @@ const Home = () => {
           </div>
         </motion.div>
       </div>
-      
-      {/* Footer */}
+   
       <footer className="relative z-10 px-6 py-8 border-t border-white/10 bg-black">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
