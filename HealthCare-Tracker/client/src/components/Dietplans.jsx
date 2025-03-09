@@ -152,7 +152,7 @@ const Dietplans = () => {
           }
         }
         
-        setAiSuggestions(formattedSuggestions.slice(0,1)); 
+        setAiSuggestions(formattedSuggestions.slice(0,3)); 
       }
     } catch (error) {
       console.error("Error fetching AI suggestions:", error);
