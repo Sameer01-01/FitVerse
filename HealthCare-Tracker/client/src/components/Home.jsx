@@ -61,6 +61,15 @@ const Home = () => {
       bgColor: "bg-gradient-to-br from-yellow-50 to-lime-100",
       icon: <Bandage size={28} />,
       link: "/injury"
+    },
+    {
+      title: "Period Tracker",
+      description: "Period Tracking at your finger tips",
+      color: "from-yellow-400 to-lime-500",
+      textColor: "text-yellow-950",
+      bgColor: "bg-gradient-to-br from-orange-50 to-lime-100",
+      icon: <Bandage size={28} />,
+      link: "/period-tracker"
     }
   ];
 
