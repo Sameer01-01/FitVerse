@@ -6,6 +6,7 @@ import Injury from "./components/Injury";
 import Exercise from "./components/Exercise";
 import Nutrition from "./components/Nutrition";
 import Womenhealth from "./components/PeriodTracker";
+import Login  from "./components/Login";
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/exercise" element={<Exercise />} />
         <Route path="/nutrition" element={<Nutrition />} />
         <Route path="/period-tracker" element={<Womenhealth />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
