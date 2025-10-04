@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import { motion } from "framer-motion";
 import { ArrowRight, Dumbbell, Salad, BarChart2, Brain, Bandage } from "lucide-react";
 
+
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
   
@@ -121,8 +122,8 @@ const Home = () => {
         </div>
         
         <div className="flex items-center gap-4">
-          <button className="text-white hover:text-cyan-400 transition-colors duration-300">
-            Login
+          <button className="text-white hover:text-cyan-400 transition-colors duration-300"> 
+            <Link to="/login"> Login </Link>
           </button>
           <button className="bg-gradient-to-r from-green-500 to-cyan-500 hover:from-green-600 hover:to-cyan-600 text-white font-medium py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105">
             Get Started
